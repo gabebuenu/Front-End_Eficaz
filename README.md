@@ -6,3 +6,5 @@
 - Bruno Bueno da Silva RA:
 - Lucas Lima RA:
 - Lucas Panizio RA:
+
+# Trello - Link: https://trello.com/b/mSiFJ3pe/buenos-cia
