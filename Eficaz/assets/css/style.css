@@ -1,0 +1,137 @@
+/* Estilização da navbar */
+.navbar-custom {
+    background-color: white;
+    border-width: 0.5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link,
+.navbar-custom .dropdown-toggle {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-toggle:hover {
+    color:  #007bff;
+}
+
+.navbar-brand {
+    margin-left: 10rem;
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-custom .nav-link.sign-in {
+    margin-left: 100px; 
+}
+
+.nav-item .nav-link.px-2 {
+    color: black; 
+    margin: 0 10px;
+}
+
+.nav-item .sign-up-text {
+    color: #007bff;
+    text-decoration: none; 
+    margin-left: 10px; 
+}
+
+.nav-item .sign-up-text:hover {
+    color: #034790; 
+}
+
+/*fim da navbar*/
+
+/* Estilização do header */
+
+
+
+header.home {
+    background-color: #ffffff; 
+    color: #000000; 
+    width: 100%; 
+    min-height: 80vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 2rem;
+    box-sizing: border-box; 
+}
+
+header.home .container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 75%; 
+}
+
+header.home .titulo {
+    max-width: 50%; 
+    text-align: left;
+}
+
+header.home .titulo h1 {
+    max-width: 20%;
+    line-height: 0.9;
+    font-weight: bold;
+    font-size: 6rem; 
+    margin-bottom: 1rem;
+}
+
+header.home .titulo h3 {
+    max-width: 63%;
+    font-size: 1.5rem; 
+    margin-bottom: 1.5rem; 
+    color: #444444;
+}
+
+header.home .titulo img {
+    max-width: 250px; 
+    height: auto; 
+}
+
+header.home .image img {
+    max-width: 550px; 
+    height: auto; 
+}
+
+/*fim da section 1*/
+
+/*inicio footer*/
+
+.container-footer{
+    background-color: black;
+    color: white;
+}
+
+.container-footer .row h1{
+    font-weight: bold;
+    padding-left: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+.container-footer li a{
+    text-decoration: none;
+    color:rgb(193, 193, 193);
+}
+
+.container-footer form input{
+    background-color: #7e7e7e;
+    border: none;
+    border-radius: 20px;
+    min-height: 50px;
+    max-width: 25rem;
+}
+
+
+.container-footer form p{
+    color: rgb(193, 193, 193);
+    max-width: 18rem;
+}
