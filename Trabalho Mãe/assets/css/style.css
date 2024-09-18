@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.offer-container {
+    background: linear-gradient(to right, #2472d1, #15bbe9);
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    max-width: 1200px;
+}
+
+.text-section {
+    text-align: left;
+    flex: 1;
+}
+
+.offer-container h1 {
+    font-size: 3.8em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.offer-container p {
+    color: #ffffff;
+    font-size: 1em;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+}
+
+.countdown {
+    font-size: 6em;
+    color: #ffffff;
+    margin: 20px 0;
+    display: flex;
+    gap: 80px;
+}
+
+.countdown div {
+    text-align: center;
+    width: 100px;
+    font-weight: bold;
+}
+
+.countdown-label {
+    font-size: 0.17em;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.shop-now {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.7em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.shop-now:hover {
+    background-color: #f1f1f1;
+}
+
+.shop-now span {
+    margin-right: auto;
+    padding: 5px;
+}
+
+.shop-now .arrow-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.offer-container h2 {
+    font-size: 0.7em;
+    color: #e0e0e0;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.headset-img {
+    max-width: 45%;
+    height: auto;
+    margin-left: 30px;
+}
