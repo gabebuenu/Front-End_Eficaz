@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -51,30 +51,49 @@ body {
 }
 
 .opcoes-cor {
-    margin: 20px 0;
-}
-
-.opcoes-cor p {
-    margin-bottom: 10px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .botao-cor {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    border: none;
-    cursor: pointer;
+    border: 2px solid white;
     margin: 0 10px;
+    position: relative;
+    display: inline-block;
 }
 
 #botaoAzul {
-    background-color: #97c9e6;
+    background: conic-gradient(from 0deg at 50% 100%, #5CD0F3 0deg, #5CD0F3 120deg, #FFA5C5 120deg, #FFA5C5 240deg);
 }
 
 #botaoVermelho {
-    background-color: #e74c3c;
+    background: conic-gradient(from 0deg at 50% 50%, #FF5733 0deg, #FF5733 180deg, #2F3C89 180deg, #2F3C89 360deg);
 }
+
+.botao-cor::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.botao-cor.selecionado::after {
+    display: block;
+}
+
+#botaoAzul.selecionado::after {
+    width: 10px;
+    height: 10px;
+}
+
 
 .preco {
     margin: 20px 0;
@@ -92,22 +111,54 @@ body {
 }
 
 .desconto {
-    color: #e74c3c;
+    color: black;
     font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 2px solid transparent; 
+    background-image: linear-gradient(white, white),
+                      linear-gradient(45deg, rgb(153, 102, 255), rgb(255, 165, 0)); 
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: inline-block;
+    text-align: center;
 }
 
+
 .botao-detalhes {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.7em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
 }
 
 .botao-detalhes:hover {
-    background-color: #555;
+    background-color: #f1f1f1;
+}
+
+.botao-detalhes span {
+    margin-right: auto;
+    padding: 5px;
+}
+
+.botao-detalhes .arrow-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
 
 /* Responsividade */
