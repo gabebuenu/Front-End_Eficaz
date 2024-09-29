@@ -12,5 +12,5 @@
 # Projeto desenvolvido para a disciplina Fábrica de Projetos Ágeis IV, ministrada pelo professor Henrique Leal Tavares na Universidade de Marília (Unimar), pelos alunos do 4º Termo A do curso de Análise e Desenvolvimento de Sistemas. O projeto tem como base o front-end fornecido pela empresa Eficaz, sendo implementado com as linguagens JavaScript, HTML e CSS, e utilizando o framework Bootstrap. 
 
 # Para execução do projeto: 
-1 - Basta baixar o arquivo
-2 - Rodá-lo no Visual Studio Code.
+- 1 - Basta baixar o arquivo
+- 2 - Rodá-lo no Visual Studio Code.
