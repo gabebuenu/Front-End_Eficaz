@@ -8,3 +8,9 @@
 - Lucas Panizio RA: 1978916
 
 # Trello - Link: https://trello.com/b/mSiFJ3pe/buenos-cia
+
+Projeto desenvolvido para a disciplina Fábrica de Projetos Ágeis IV, ministrada pelo professor Henrique
+Leal Tavares na Universidade de Marília (Unimar), pelos alunos do 4° Termo A do curso de Análise e Desenvolvimento de Sistemas. O projeto tem como base o front-end fornecido pela empresa Eficaz, sendo implementado com as linguagens JavaScript, HTML e CSS, e utilizando o framework Bootstrap.
+Para execução do projeto:
+* 1 - Basta baixar o arquivo 
+* 2 - Roda-lo no Visual Studio Code.
