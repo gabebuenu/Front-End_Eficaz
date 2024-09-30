@@ -17,4 +17,4 @@ Para execução do projeto:
 * Eficaz-Projeto_Integrado/src 
 # github.com/gabebuenu/Front-End_Eficaz/tree/Eficaz-Final/Eficaz-Projeto_Integrado/src
 
-* 2 - Roda-lo no Visual Studio Code.
+* 2 - Roda-lo: Baixe Liver Server e rodar local no Go Live, no Visual Studio Code.
